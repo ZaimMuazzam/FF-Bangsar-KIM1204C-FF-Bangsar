@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body style="background-color:indianred;">
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<body>
+
+<div class="container-fluid p-5 bg-primary text-white text-center">
+  <img src="logo.png" style="width:20%">
+</div>
+
+<div class="w3-bar w3-black">
+	  <nav class="w3-bar w3-bar-block w3-card w3-top w3-large w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+
+  <a href="javascript:void(0)" onclick="w3_close()">
+
+<a href="index.html" class="w3-bar-item w3-button">Home</a>
+<a href="about.html" class="w3-bar-item w3-button">About</a>
+<a href="menu.html" class="w3-bar-item w3-button">Menu</a>
+<a href="joinus.html" class="w3-bar-item w3-button">Join Us</a>
+<a href="member.html" class="w3-bar-item w3-button">Member</a>
+</nav>
+</div>
+
+<center>
+<div id="menu" class="w3-padding-top-64">
+
+<div class="w3-center">	
+<div class="w3-col  w3-padding-large">
+	  <div class="w3-display-container w3-text-white">
+	  <div class="w3-display-topmiddle w3-container"><h2><i>FF BANGSAR MENU</i></h2></div>
+<img src="burger2.jpg" class="w3-round w3-image w3-center" alt="Menu" style="width:50%">
+<br><br><br><br><br><br>
+</div>
+</div>
+</div>
+</center>
+<br><br><br>
+
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1500px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()" onclick="w3_close()">☰</div>
+  </div>
+</div>
+
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <div class="w3-row-padding w3-padding-16 w3-center" id="frappuccino">
+  <div class="w3-quarter">
+    <img src="frapchoc.jpg" alt="frappuccino" style="width:100%">
+    <h3>Chocolate Frappuccino</h3>
+    <p>Frappe or called “frap-pay,” is the name for a blended iced chocolate that produces a delicious, frothy and refreshing drink. Whipping cream is also added on top and served with or without seasoning such as caramel drizzle, choclate chips or nuts. It is served cold after grinding it with ice cubes<br>RM 4.50</p>
+  </div>
+  <div class="w3-quarter">
+    <img src="frap2.jpg" alt="frappuccino2" style="width:95%">
+    <h3>Strawberry Java Chip Frappuccino</h3>
+    <p>A combination of strawberries, milk, frappucinno chips and strawberry sauce. It is blended with ice cubes until smooth. Whipped cream and java chips are added on top as the decoration of the frappe<br>RM 5.00</p>
+  </div>
+  <div class="w3-quarter">
+    <img src="frap3.jpg" alt="frappuccino3" style="width:100%">
+    <h3>Cookies and Cream Frappuccino</h3>
+    <p>Cookies, milk and ice are combined to produce an ideal and smooth ice cream biscuit texture. Then topped with delicious biscuits & cream sauce at the end to add an interesting flavor and look<br>RM 5.00</p>
+  </div>
+
+  <div class="w3-row-padding w3-padding-16 w3-center" id="ice">
+  <div class="w3-quarter">
+    <img src="tea.jpg" alt="tea" style="width:100%">
+    <h3>Iced Tea</h3>
+    <p> A cold beverage made with iced tea that is frequently served with sugar, sweetener, and flavourings like lemon. Finally, it puts mint leaves to give fragrance to the drink.<br>RM 3.00</p>
+  </div>
+<div class="w3-quarter">
+  <img src="lemon.jpg" alt="lemon" style="width:100%">
+  <h3>Iced Lemon Syrup</h3>
+  <p> Sugar dissolves in water if mixed with hot water. Lemon juice, water, and sugar are combined to create this iced lemon syrup. It is decorated with mint leaves to give color to the water.<br>RM 3.00</p>
+</div>
+<div class="w3-quarter">
+  <img src="greentea.jpg" alt="greentea" style="width:100%">
+  <h3>Iced Green Tea</h3>
+  <p> Put green tea powder and pour hot water. Stir it until dissolved and place the ice in a glass. This iced green tea has a light and delicate taste that really quenches thirst and is really delicious.<br>RM 4.00</p>
+</div>
+</div>
+
+
+ <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="menu.html" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="menu.html" class="w3-bar-item w3-button w3-hover-black">FOOD</a>
+      <a href="menu2.html" class="w3-bar-item w3-black w3-button">BEVERAGES</a>
+      <a href="menu3.html" class="w3-bar-item w3-button w3-hover-black">DESSERT</a>
+      <a href="menu3.html" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+</div>
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+
+<center> 
+<br>
+  <p style="background-color:aliceblue;"><a href="contact.html" class="w3-bar-item w3-button"></a>
+
+    <a href="index.html"><img src="logo.png" style="width:4%"></a>
+    <a href="https://www.instagram.com/zaimmuazzam_/"><img src="ig.png" style="width:2%"></a>
+    <a href="https://twitter.com/zaimmzzm_"><img src="twitter.png" style="width:2%"></a>
+    <a href="tel:+601161553884"><img src="call.png" style="width:2%"></a>
+<br>
+      <marquee>DELIVERY IS AVAILABLE NOW!</marquee>
+
+       &copy;Copyright 2019 FF BANGSAR</p>
+</center>
+</style>
+
+</body>
+</html>
